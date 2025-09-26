@@ -1,0 +1,19 @@
+{
+  "parentId": {
+    "sessionId": "1",
+    "id": "4"
+  },
+  "orderIndex": "gA==",
+  "title": "比赛详情页面.html",
+  "relativeTransform": {
+    "x": 2680.0,
+    "y": 125.0
+  },
+  "zeroFields": [
+    5009
+  ],
+  "nullFields": [
+    5027
+  ],
+  "id": "22:1"
+}

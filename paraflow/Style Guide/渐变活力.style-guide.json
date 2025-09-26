@@ -1,0 +1,23 @@
+{
+  "parentId": {
+    "sessionId": "1",
+    "id": "3"
+  },
+  "orderIndex": "gA==",
+  "title": "渐变活力.style-guide.md",
+  "relativeTransform": {
+    "x": 100.0,
+    "y": 125.0
+  },
+  "assetMetadata": {
+    "assetId": {
+      "path": "/workspace/github_work/project/workspace/paraflow/Style Guide/渐变活力.style-guide.md"
+    },
+    "mimeType": "text/markdown",
+    "hash": "IgRPLIBdTy65-jzgJ7bTOdlNYgOswlfhxzDl1xfeg4c",
+    "contentLength": 13237,
+    "assetSize": {},
+    "previewImageHash": "VRsKZB6wToAwQWCyTaTUW7OyhGKAW0oaXVAVhRBhPxU"
+  },
+  "id": "13:1"
+}

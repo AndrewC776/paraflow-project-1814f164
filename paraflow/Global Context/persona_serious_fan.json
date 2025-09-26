@@ -1,0 +1,24 @@
+{
+  "parentId": {
+    "sessionId": "1",
+    "id": "1"
+  },
+  "orderIndex": "gg==",
+  "title": "persona_serious_fan.md",
+  "relativeTransform": {
+    "x": 1620.0,
+    "y": 125.0
+  },
+  "assetMetadata": {
+    "assetId": {
+      "path": "/workspace/github_work/project/workspace/paraflow/Global Context/persona_serious_fan.md"
+    },
+    "mimeType": "text/markdown",
+    "hash": "BylUXBV2MY3Wq8AtPoZUS2-WPA7woUQRgGlxmGWgElw",
+    "contentLength": 1731,
+    "assetSize": {
+      "width": 720
+    }
+  },
+  "id": "5:1"
+}

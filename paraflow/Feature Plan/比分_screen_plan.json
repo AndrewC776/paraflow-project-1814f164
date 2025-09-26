@@ -1,0 +1,27 @@
+{
+  "parentId": {
+    "sessionId": "1",
+    "id": "2"
+  },
+  "orderIndex": "gg==",
+  "title": "比分_screen_plan.md",
+  "relativeTransform": {
+    "x": 1800.0,
+    "y": 125.0
+  },
+  "assetMetadata": {
+    "assetId": {
+      "path": "/workspace/github_work/project/workspace/paraflow/Feature Plan/比分_screen_plan.md"
+    },
+    "mimeType": "text/markdown",
+    "hash": "6yjUrBk6LkLsa1wyCqkWIoMS1syyJfvJDrs8jPlWxSs",
+    "contentLength": 948,
+    "tags": {
+      "markdown_type": "screen_plan"
+    },
+    "assetSize": {
+      "width": 520
+    }
+  },
+  "id": "8:1"
+}

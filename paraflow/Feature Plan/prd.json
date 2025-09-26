@@ -1,0 +1,24 @@
+{
+  "parentId": {
+    "sessionId": "1",
+    "id": "2"
+  },
+  "orderIndex": "gA==",
+  "title": "prd.md",
+  "relativeTransform": {
+    "x": 100.0,
+    "y": 125.0
+  },
+  "assetMetadata": {
+    "assetId": {
+      "path": "/workspace/github_work/project/workspace/paraflow/Feature Plan/prd.md"
+    },
+    "mimeType": "text/markdown",
+    "hash": "Nyntan4PegvK8lx3wbXw4QOO9zsWBXnA0Hlh5p5RzBA",
+    "contentLength": 5171,
+    "assetSize": {
+      "width": 720
+    }
+  },
+  "id": "6:1"
+}

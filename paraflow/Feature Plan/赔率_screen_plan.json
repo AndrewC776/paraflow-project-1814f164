@@ -1,0 +1,27 @@
+{
+  "parentId": {
+    "sessionId": "1",
+    "id": "2"
+  },
+  "orderIndex": "hw==",
+  "title": "赔率_screen_plan.md",
+  "relativeTransform": {
+    "x": 4600.0,
+    "y": 125.0
+  },
+  "assetMetadata": {
+    "assetId": {
+      "path": "/workspace/github_work/project/workspace/paraflow/Feature Plan/赔率_screen_plan.md"
+    },
+    "mimeType": "text/markdown",
+    "hash": "eVLNZagtBdPrR2-DV1RDR6Y9SMF7Lu58RJlgzoiUATQ",
+    "contentLength": 865,
+    "tags": {
+      "markdown_type": "screen_plan"
+    },
+    "assetSize": {
+      "width": 520
+    }
+  },
+  "id": "23:1"
+}

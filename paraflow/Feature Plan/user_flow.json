@@ -1,0 +1,24 @@
+{
+  "parentId": {
+    "sessionId": "1",
+    "id": "2"
+  },
+  "orderIndex": "gQ==",
+  "title": "user_flow.md",
+  "relativeTransform": {
+    "x": 860.0,
+    "y": 125.0
+  },
+  "assetMetadata": {
+    "assetId": {
+      "path": "/workspace/github_work/project/workspace/paraflow/Feature Plan/user_flow.md"
+    },
+    "mimeType": "text/markdown",
+    "hash": "0U0dPBPJ2ZkHlZ3CIrxf_vkv09fiQyJmXFzg7bR2Tnw",
+    "contentLength": 933,
+    "assetSize": {
+      "width": 900
+    }
+  },
+  "id": "7:1"
+}

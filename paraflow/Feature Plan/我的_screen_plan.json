@@ -1,0 +1,27 @@
+{
+  "parentId": {
+    "sessionId": "1",
+    "id": "2"
+  },
+  "orderIndex": "hQ==",
+  "title": "我的_screen_plan.md",
+  "relativeTransform": {
+    "x": 3480.0,
+    "y": 125.0
+  },
+  "assetMetadata": {
+    "assetId": {
+      "path": "/workspace/github_work/project/workspace/paraflow/Feature Plan/我的_screen_plan.md"
+    },
+    "mimeType": "text/markdown",
+    "hash": "tl7lCDSZwuDwEq9ZkGzDJtiFYYqy0bWTnSrq1mx7mNI",
+    "contentLength": 610,
+    "tags": {
+      "markdown_type": "screen_plan"
+    },
+    "assetSize": {
+      "width": 520
+    }
+  },
+  "id": "11:1"
+}

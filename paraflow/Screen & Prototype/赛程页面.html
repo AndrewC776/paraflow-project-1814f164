@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <link rel="stylesheet" href="https://static.paraflowcontent.com/public/css/font-awesome/font-awesome.672.css">
+    <script src="https://static.paraflowcontent.com/public/js/tailwind/tailwind.js"></script>
+    <script src="https://static.paraflowcontent.com/public/js/iconify/iconify-icon-3.0.0.js"></script>
+    <style id="moxt-styled">
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Mono:wght@100;200;300;400;500;600;700&family=PT+Serif:wght@400;700&family=Arimo:wght@400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Nunito:wght@200;300;400;500;600;700&;800;900&family=Rubik:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&family=Merriweather:wght@300;400;500;600;700;800;900&family=Roboto+Slab:wght@100;200;300;400;500;600;700&family=Libre+Baskerville:wght@400;700&family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Dancing+Script:wght@400;500;600;700&family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+</style>
+</head>
+<body id="19:1" title="赛程页面.html" orderindex="80" relativetransform="1390, 125" style="background-color: rgba(248, 250, 251, 1); font-family: &quot;-apple-system&quot;, &quot;BlinkMacSystemFont&quot;, &quot;Segoe UI&quot;, &quot;Roboto&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif; width: 390px; min-height: 844px; line-height: 1.4;">
+
+<div id="19:2" orderindex="80" style="background-color: rgba(248, 250, 251, 1); position: fixed; top: 0; width: 100%; z-index: 10;">
+<div id="19:3" orderindex="80" style="height: env(safe-area-inset-top);"></div>
+<header id="19:4" orderindex="81" style="background-color: rgba(255, 255, 255, 1); display: flex; justify-content: space-between; align-items: center; height: 3.5rem; padding-right: 1rem; padding-left: 1rem;">
+<div id="19:5" orderindex="80" style="display: flex; align-items: center; row-gap: 0.75rem; column-gap: 0.75rem;">
+<h1 id="19:6" orderindex="80" style="color: rgba(30, 58, 95, 1); font-size: 20px; font-weight: 600;">Schedule</h1>
+</div>
+<div id="19:7" orderindex="81" style="display: flex; align-items: center; row-gap: 1rem; column-gap: 1rem;">
+<button id="19:8" orderindex="80" style="background-color: rgba(243, 245, 247, 1); display: flex; justify-content: center; align-items: center; padding-top: 0.5rem; padding-right: 0.75rem; padding-bottom: 0.5rem; padding-left: 0.75rem; border-top-left-radius: 0.375rem; border-top-right-radius: 0.375rem; border-bottom-right-radius: 0.375rem; border-bottom-left-radius: 0.375rem;">
+<div id="19:9" orderindex="80" style="display: flex; justify-content: center; align-items: center; width: 1rem; height: 1rem;">
+<iconify-icon id="19:10" orderindex="80" style="color: rgba(30, 58, 95, 1);" icon="lucide:bell"></iconify-icon>
+</div>
+<span id="19:11" orderindex="81" style="margin-left: 0.5rem; line-height: 1.42857; color: rgba(30, 58, 95, 1); font-size: 0.875rem; font-weight: 500;">Alerts</span>
+</button>
+<div id="19:12" orderindex="81" style="display: flex; justify-content: center; align-items: center; width: 1.5rem; height: 1.5rem;">
+<iconify-icon id="19:13" orderindex="80" style="line-height: 1.55556; color: rgba(30, 58, 95, 1); font-size: 1.125rem;" icon="lucide:search"></iconify-icon>
+</div>
+</div>
+</header>
+</div>
+
+<div id="19:14" orderindex="81">
+<div id="19:15" orderindex="80" style="height: env(safe-area-inset-top);"></div>
+<div id="19:16" orderindex="81" style="height: 3.5rem;"></div>
+</div>
+
+<main id="19:17" orderindex="82" style="padding-bottom: 1rem;">
+
+<section id="19:18" orderindex="80" style="margin-bottom: 1rem; padding-right: 1rem; padding-left: 1rem;">
+<div id="19:19" orderindex="80" style="display: flex; align-items: center; row-gap: 0.75rem; column-gap: 0.75rem; margin-bottom: 0.75rem;">
+<h2 id="19:20" orderindex="80" style="color: rgba(30, 58, 95, 1); font-size: 16px; font-weight: 600;">Date</h2>
+<div id="19:21" orderindex="81" style="display: flex; align-items: center; row-gap: 0.5rem; column-gap: 0.5rem;">
+<button id="19:22" orderindex="80" style="background-color: rgba(243, 245, 247, 1); display: flex; align-items: center; padding-top: 0.25rem; padding-right: 0.5rem; padding-bottom: 0.25rem; padding-left: 0.5rem; border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; border-bottom-right-radius: 0.25rem; border-bottom-left-radius: 0.25rem;">
+<span id="19:23" orderindex="80" style="line-height: 1.33333; color: rgba(74, 85, 104, 1); font-size: 0.75rem; font-weight: 500;">Week</span>
+</button>
+<button id="19:24" orderindex="81" style="background-color: rgba(30, 58, 95, 1); display: flex; align-items: center; padding-top: 0.25rem; padding-right: 0.5rem; padding-bottom: 0.25rem; padding-left: 0.5rem; border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; border-bottom-right-radius: 0.25rem; border-bottom-left-radius: 0.25rem;">
+<span id="19:25" orderindex="80" style="line-height: 1.33333; color: rgba(255, 255, 255, 1); font-size: 0.75rem; font-weight: 500;">Month</span>
+</button>
+</div>
+</div>
+<div id="19:26" orderindex="81" style="overflow-x: auto; display: flex; row-gap: 0.5rem; column-gap: 0.5rem;">
+<div id="19:27" orderindex="80" style="background-color: rgba(255, 255, 255, 1); display: flex; flex-direction: column; align-items: center; min-width: 50px; padding-top: 0.5rem; padding-right: 0.75rem; padding-bottom: 0.5rem; padding-left: 0.75rem; border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; border-bottom-right-radius: 0.5rem; border-bottom-left-radius: 0.5rem;">
+<span id="19:28" orderindex="80" style="line-height: 1.33333; color: rgba(113, 128, 150, 1); font-size: 0.75rem; font-weight: 400;">Sun</span>
+<span id="19:29" orderindex="81" style="line-height: 1.42857; color: rgba(74, 85, 104, 1); font-size: 0.875rem; font-weight: 500;">13</span>
+</div>
+<div id="19:30" orderindex="81" style="background-color: rgba(255, 255, 255, 1); display: flex; flex-direction: column; align-items: center; min-width: 50px; padding-top: 0.5rem; padding-right: 0.75rem; padding-bottom: 0.5rem; padding-left: 0.75rem; border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; border-bottom-right-radius: 0.5rem; border-bottom-left-radius: 0.5rem;">
+<span id="19:31" orderindex="80" style="line-height: 1.33333; color: rgba(113, 128, 150, 1); font-size: 0.75rem; font-weight: 400;">Mon</span>
+<span id="19:32" orderindex="81" style="line-height: 1.42857; color: rgba(74, 85, 104, 1); font-size: 0.875rem; font-weight: 500;">14</span>
+</div>
+<div id="19:33" orderindex="82" style="background-color: rgba(30, 58, 95, 1); display: flex; flex-direction: column; align-items: center; min-width: 50px; padding-top: 0.5rem; padding-right: 0.75rem; padding-bottom: 0.5rem; padding-left: 0.75rem; border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; border-bottom-right-radius: 0.5rem; border-bottom-left-radius: 0.5rem;">
+<span id="19:34" orderindex="80" style="line-height: 1.33333; color: rgba(255, 255, 255, 1); font-size: 0.75rem; font-weight: 400;">Tue</span>
+<span id="19:35" orderindex="81" style="line-height: 1.42857; color: rgba(255, 255, 255, 1); font-size: 0.875rem; font-weight: 500;">15</span>
+</div>
+<div id="19:36" orderindex="83" style="background-color: rgba(255, 255, 255, 1); display: flex; flex-direction: column; align-items: center; min-width: 50px; padding-top: 0.5rem; padding-right: 0.75rem; padding-bottom: 0.5rem; padding-left: 0.75rem; border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; border-bottom-right-radius: 0.5rem; border-bottom-left-radius: 0.5rem;">
+<span id="19:37" orderindex="80" style="line-height: 1.33333; color: rgba(113, 128, 150, 1); font-size: 0.75rem; font-weight: 400;">Wed</span>
+<span id="19:38" orderindex="81" style="line-height: 1.42857; color: rgba(74, 85, 104, 1); font-size: 0.875rem; font-weight: 500;">16</span>
+</div>
+<div id="19:39" orderindex="84" style="background-color: rgba(255, 255, 255, 1); display: flex; flex-direction: column; align-items: center; min-width: 50px; padding-top: 0.5rem; padding-right: 0.75rem; padding-bottom: 0.5rem; padding-left: 0.75rem; border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; border-bottom-right-radius: 0.5rem; border-bottom-left-radius: 0.5rem;">
+<span id="19:40" orderindex="80" style="line-height: 1.33333; color: rgba(113, 128, 150, 1); font-size: 0.75rem; font-weight: 400;">Thu</span>
+<span id="19:41" orderindex="81" style="line-height: 1.42857; color: rgba(74, 85, 104, 1); font-size: 0.875rem; font-weight: 500;">17</span>
+</div>
+<div id="19:42" orderindex="85" style="background-color: rgba(255, 255, 255, 1); display: flex; flex-direction: column; align-items: center; min-width: 50px; padding-top: 0.5rem; padding-right: 0.75rem; padding-bottom: 0.5rem; padding-left: 0.75rem; border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; border-bottom-right-radius: 0.5rem; border-bottom-left-radius: 0.5rem;">
+<span id="19:43" orderindex="80" style="line-height: 1.33333; color: rgba(113, 128, 150, 1); font-size: 0.75rem; font-weight: 400;">Fri</span>
+<span id="19:44" orderindex="81" style="line-height: 1.42857; color: rgba(74, 85, 104, 1); font-size: 0.875rem; font-weight: 500;">18</span>
+</div>
+<div id="19:45" orderindex="86" style="background-color: rgba(255, 255, 255, 1); display: flex; flex-direction: column; align-items: center; min-width: 50px; padding-top: 0.5rem; padding-right: 0.75rem; padding-bottom: 0.5rem; padding-left: 0.75rem; border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; border-bottom-right-radius: 0.5rem; border-bottom-left-radius: 0.5rem;">
+<span id="19:46" orderindex="80" style="line-height: 1.33333; color: rgba(113, 128, 150, 1); font-size: 0.75rem; font-weight: 400;">Sat</span>
+<span id="19:47" orderindex="81" style="line-height: 1.42857; color: rgba(74, 85, 104, 1); font-size: 0.875rem; font-weight: 500;">19</span>
+</div>
+</div>
+</section>
+
+<section id="19:48" orderindex="81" style="margin-bottom: 1rem; padding-right: 1rem; padding-left: 1rem;">
+<div id="19:49" orderindex="80" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
+<h2 id="19:50" orderindex="80" style="color: rgba(30, 58, 95, 1); font-size: 16px; font-weight: 600;">Leagues</h2>
+<button id="19:51" orderindex="81" style="display: flex; align-items: center;">
+<span id="19:52" orderindex="80" style="line-height: 1.42857; color: rgba(113, 128, 150, 1); font-size: 0.875rem; font-weight: 400;">All</span>
+<div id="19:53" orderindex="81" style="display: flex; justify-content: center; align-items: center; width: 1rem; height: 1rem; margin-left: 0.25rem;">
+<iconify-icon id="19:54" orderindex="80" style="color: rgba(113, 128, 150, 1);" icon="lucide:chevron-down"></iconify-icon>
+</div>
+</button>
+</div>
+<div id="19:55" orderindex="81" style="overflow-x: auto; display: flex; row-gap: 0.5rem; column-gap: 0.5rem;">
+<div id="19:56" orderindex="80" style="background-color: rgba(30, 58, 95, 1); display: flex; align-items: center; min-width: fit-content; padding-top: 0.25rem; padding-right: 0.75rem; padding-bottom: 0.25rem; padding-left: 0.75rem; border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; border-bottom-right-radius: 0.25rem; border-bottom-left-radius: 0.25rem;">
+<span id="19:57" orderindex="80" style="line-height: 1.33333; color: rgba(255, 255, 255, 1); font-size: 0.75rem; font-weight: 500;">All</span>
+</div>
+<div id="19:58" orderindex="81" style="background-color: rgba(243, 245, 247, 1); display: flex; align-items: center; min-width: fit-content; padding-top: 0.25rem; padding-right: 0.75rem; padding-bottom: 0.25rem; padding-left: 0.75rem; border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; border-bottom-right-radius: 0.25rem; border-bottom-left-radius: 0.25rem;">
+<span id="19:59" orderindex="80" style="line-height: 1.33333; color: rgba(74, 85, 104, 1); font-size: 0.75rem; font-weight: 500;">Premier League</span>
+</div>
+<div id="19:60" orderindex="82" style="background-color: rgba(243, 245, 247, 1); display: flex; align-items: center; min-width: fit-content; padding-top: 0.25rem; padding-right: 0.75rem; padding-bottom: 0.25rem; padding-left: 0.75rem; border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; border-bottom-right-radius: 0.25rem; border-bottom-left-radius: 0.25rem;">
+<span id="19:61" orderindex="80" style="line-height: 1.33333; color: rgba(74, 85, 104, 1); font-size: 0.75rem; font-weight: 500;">La Liga</span>
+</div>
+<div id="19:62" orderindex="83" style="background-color: rgba(243, 245, 247, 1); display: flex; align-items: center; min-width: fit-content; padding-top: 0.25rem; padding-right: 0.75rem; padding-bottom: 0.25rem; padding-left: 0.75rem; border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; border-bottom-right-radius: 0.25rem; border-bottom-left-radius: 0.25rem;">
+<span id="19:63" orderindex="80" style="line-height: 1.33333; color: rgba(74, 85, 104, 1); font-size: 0.75rem; font-weight: 500;">Serie A</span>
+</div>
+<div id="19:64" orderindex="84" style="background-color: rgba(243, 245, 247, 1); display: flex; align-items: center; min-width: fit-content; padding-top: 0.25rem; padding-right: 0.75rem; padding-bottom: 0.25rem; padding-left: 0.75rem; border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; border-bottom-right-radius: 0.25rem; border-bottom-left-radius: 0.25rem;">
+<span id="19:65" orderindex="80" style="line-height: 1.33333; color: rgba(74, 85, 104, 1); font-size: 0.75rem; font-weight: 500;">Following</span>
+</div>
+</div>
+</section>
+
+<section id="19:66" orderindex="82" style="margin-bottom: 1rem; padding-right: 1rem; padding-left: 1rem;">
+<div id="19:67" orderindex="80" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
+<h2 id="19:68" orderindex="80" style="color: rgba(30, 58, 95, 1); font-size: 16px; font-weight: 600;">Today&apos;s Matches</h2>
+<span id="19:69" orderindex="81" style="line-height: 1.42857; color: rgba(113, 128, 150, 1); font-size: 0.875rem; font-weight: 400;">Dec 15</span>
+</div>
+<div id="19:70" orderindex="81" style="background-color: rgba(255, 255, 255, 1); border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; border-bottom-right-radius: 0.5rem; border-bottom-left-radius: 0.5rem;">
+
+<div id="19:71" orderindex="80" style="padding-top: 0.75rem; padding-right: 0.75rem; padding-bottom: 0.75rem; padding-left: 0.75rem; border-top-color: rgba(241, 245, 249, 1); border-right-color: rgba(241, 245, 249, 1); border-bottom-color: rgba(241, 245, 249, 1); border-left-color: rgba(241, 245, 249, 1); border-bottom-style: solid; border-bottom-width: 1px;">
+<div id="19:72" orderindex="80" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+<div id="19:73" orderindex="80" style="display: flex; align-items: center; row-gap: 0.5rem; column-gap: 0.5rem;">
+<span id="19:74" orderindex="80" style="line-height: 1.33333; color: rgba(113, 128, 150, 1); font-size: 0.75rem; font-weight: 400;">Premier League</span>
+<div id="19:75" orderindex="81" style="background-color: rgba(160, 174, 192, 1); width: 0.25rem; height: 0.25rem; border-top-left-radius: 9999px; border-top-right-radius: 9999px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 9999px;"></div>
+<span id="19:76" orderindex="82" style="line-height: 1.33333; color: rgba(74, 85, 104, 1); font-size: 0.75rem; font-weight: 400;">15:30</span>
+<div id="19:77" orderindex="83" style="background-color: rgba(236, 253, 245, 1); display: flex; align-items: center; padding-top: 0.25rem; padding-right: 0.5rem; padding-bottom: 0.25rem; padding-left: 0.5rem; border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; border-bottom-right-radius: 0.25rem; border-bottom-left-radius: 0.25rem;">
+<div id="19:78" orderindex="80" style="display: flex; justify-content: center; align-items: center; width: 0.75rem; height: 0.75rem;">
+<iconify-icon id="19:79" orderindex="80" style="line-height: 1.33333; color: rgba(5, 150, 105, 1); font-size: 0.75rem;" icon="lucide:star"></iconify-icon>
+</div>
+</div>
+</div>
+<button id="19:80" orderindex="81" style="display: flex; justify-content: center; align-items: center; width: 1.5rem; height: 1.5rem;">
+<iconify-icon id="19:81" orderindex="80" style="line-height: 1.42857; color: rgba(160, 174, 192, 1); font-size: 0.875rem;" icon="lucide:bell"></iconify-icon>
+</button>
+</div>
+<div id="19:82" orderindex="81">
+<div id="19:83" orderindex="80" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+<div id="19:84" orderindex="80" style="display: flex; align-items: center; row-gap: 0.75rem; column-gap: 0.75rem;">
+<img id="19:85" orderindex="80" style="width: 20px; height: 20px; border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; border-bottom-right-radius: 0.25rem; border-bottom-left-radius: 0.25rem;" alt="Manchester United team logo" src="https://static.paraflowcontent.com/public/resource/image/f946bf6d-fa12-4780-87f4-19571cac1e6e.jpeg" />
+<span id="19:86" orderindex="81" style="line-height: 1.42857; color: rgba(30, 58, 95, 1); font-size: 0.875rem; font-weight: 500;">Manchester United</span>
+</div>
+<span id="19:87" orderindex="81" style="line-height: 1.42857; color: rgba(113, 128, 150, 1); font-size: 0.875rem;">vs</span>
+</div>
+<div id="19:88" orderindex="81" style="display: flex; justify-content: space-between; align-items: center;">
+<div id="19:89" orderindex="80" style="display: flex; align-items: center; row-gap: 0.75rem; column-gap: 0.75rem;">
+<img id="19:90" orderindex="80" style="width: 20px; height: 20px; border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; border-bottom-right-radius: 0.25rem; border-bottom-left-radius: 0.25rem;" alt="Arsenal team logo" src="https://static.paraflowcontent.com/public/resource/image/adeb68a7-3f74-4984-9d8f-4f9f8f4cec30.jpeg" />
+<span id="19:91" orderindex="81" style="line-height: 1.42857; color: rgba(30, 58, 95, 1); font-size: 0.875rem; font-weight: 500;">Arsenal</span>
+</div>
+</div>
+</div>
+</div>
+
+<div id="19:92" orderindex="81" style="padding-top: 0.75rem; padding-right: 0.75rem; padding-bottom: 0.75rem; padding-left: 0.75rem; border-top-color: rgba(241, 245, 249, 1); border-right-color: rgba(241, 245, 249, 1); border-bottom-color: rgba(241, 245, 249, 1); border-left-color: rgba(241, 245, 249, 1); border-bottom-style: solid; border-bottom-width: 1px;">
+<div id="19:93" orderindex="80" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+<div id="19:94" orderindex="80" style="display: flex; align-items: center; row-gap: 0.5rem; column-gap: 0.5rem;">
+<span id="19:95" orderindex="80" style="line-height: 1.33333; color: rgba(113, 128, 150, 1); font-size: 0.75rem; font-weight: 400;">La Liga</span>
+<div id="19:96" orderindex="81" style="background-color: rgba(160, 174, 192, 1); width: 0.25rem; height: 0.25rem; border-top-left-radius: 9999px; border-top-right-radius: 9999px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 9999px;"></div>
+<span id="19:97" orderindex="82" style="line-height: 1.33333; color: rgba(74, 85, 104, 1); font-size: 0.75rem; font-weight: 400;">18:00</span>
+</div>
+<button id="19:98" orderindex="81" style="display: flex; justify-content: center; align-items: center; width: 1.5rem; height: 1.5rem;">
+<iconify-icon id="19:99" orderindex="80" style="line-height: 1.42857; color: rgba(30, 58, 95, 1); font-size: 0.875rem;" icon="lucide:bell"></iconify-icon>
+</button>
+</div>
+<div id="19:100" orderindex="81">
+<div id="19:101" orderindex="80" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+<div id="19:102" orderindex="80" style="display: flex; align-items: center; row-gap: 0.75rem; column-gap: 0.75rem;">
+<img id="19:103" orderindex="80" style="width: 20px; height: 20px; border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; border-bottom-right-radius: 0.25rem; border-bottom-left-radius: 0.25rem;" alt="Real Madrid team logo" src="https://static.paraflowcontent.com/public/resource/image/50aef2ee-d204-420d-9d38-c7dd9b53e5c9.jpeg" />
+<span id="19:104" orderindex="81" style="line-height: 1.42857; color: rgba(30, 58, 95, 1); font-size: 0.875rem; font-weight: 500;">Real Madrid</span>
+</div>
+<span id="19:105" orderindex="81" style="line-height: 1.42857; color: rgba(113, 128, 150, 1); font-size: 0.875rem;">vs</span>
+</div>
+<div id="19:106" orderindex="81" style="display: flex; justify-content: space-between; align-items: center;">
+<div id="19:107" orderindex="80" style="display: flex; align-items: center; row-gap: 0.75rem; column-gap: 0.75rem;">
+<img id="19:108" orderindex="80" style="width: 20px; height: 20px; border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; border-bottom-right-radius: 0.25rem; border-bottom-left-radius: 0.25rem;" alt="Barcelona team logo" src="https://static.paraflowcontent.com/public/resource/image/82cdee45-f691-444b-9b07-d4d91d73d41b.jpeg" />
+<span id="19:109" orderindex="81" style="line-height: 1.42857; color: rgba(30, 58, 95, 1); font-size: 0.875rem; font-weight: 500;">Barcelona</span>
+</div>
+</div>
+</div>
+</div>
+
+<div id="19:110" orderindex="82" style="padding-top: 0.75rem; padding-right: 0.75rem; padding-bottom: 0.75rem; padding-left: 0.75rem;">
+<div id="19:111" orderindex="80" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+<div id="19:112" orderindex="80" style="display: flex; align-items: center; row-gap: 0.5rem; column-gap: 0.5rem;">
+<span id="19:113" orderindex="80" style="line-height: 1.33333; color: rgba(113, 128, 150, 1); font-size: 0.75rem; font-weight: 400;">Serie A</span>
+<div id="19:114" orderindex="81" style="background-color: rgba(160, 174, 192, 1); width: 0.25rem; height: 0.25rem; border-top-left-radius: 9999px; border-top-right-radius: 9999px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 9999px;"></div>
+<span id="19:115" orderindex="82" style="line-height: 1.33333; color: rgba(74, 85, 104, 1); font-size: 0.75rem; font-weight: 400;">20:45</span>
+</div>
+<button id="19:116" orderindex="81" style="display: flex; justify-content: center; align-items: center; width: 1.5rem; height: 1.5rem;">
+<iconify-icon id="19:117" orderindex="80" style="line-height: 1.42857; color: rgba(160, 174, 192, 1); font-size: 0.875rem;" icon="lucide:bell"></iconify-icon>
+</button>
+</div>
+<div id="19:118" orderindex="81">
+<div id="19:119" orderindex="80" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+<div id="19:120" orderindex="80" style="display: flex; align-items: center; row-gap: 0.75rem; column-gap: 0.75rem;">
+<img id="19:121" orderindex="80" style="width: 20px; height: 20px; border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; border-bottom-right-radius: 0.25rem; border-bottom-left-radius: 0.25rem;" alt="Juventus team logo" src="https://static.paraflowcontent.com/public/resource/image/793a0763-4b00-492c-9644-352e78eb8f0e.jpeg" />
+<span id="19:122" orderindex="81" style="line-height: 1.42857; color: rgba(30, 58, 95, 1); font-size: 0.875rem; font-weight: 500;">Juventus</span>
+</div>
+<span id="19:123" orderindex="81" style="line-height: 1.42857; color: rgba(113, 128, 150, 1); font-size: 0.875rem;">vs</span>
+</div>
+<div id="19:124" orderindex="81" style="display: flex; justify-content: space-between; align-items: center;">
+<div id="19:125" orderindex="80" style="display: flex; align-items: center; row-gap: 0.75rem; column-gap: 0.75rem;">
+<img id="19:126" orderindex="80" style="width: 20px; height: 20px; border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; border-bottom-right-radius: 0.25rem; border-bottom-left-radius: 0.25rem;" alt="AC Milan team logo" src="https://static.paraflowcontent.com/public/resource/image/f3e5ce57-a08d-4f68-9c6f-3a522b5259fc.jpeg" />
+<span id="19:127" orderindex="81" style="line-height: 1.42857; color: rgba(30, 58, 95, 1); font-size: 0.875rem; font-weight: 500;">AC Milan</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="19:128" orderindex="83" style="padding-right: 1rem; padding-left: 1rem;">
+<div id="19:129" orderindex="80" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
+<h2 id="19:130" orderindex="80" style="color: rgba(30, 58, 95, 1); font-size: 16px; font-weight: 600;">My Alerts</h2>
+<div id="19:131" orderindex="81" style="background-color: rgba(236, 253, 245, 1); display: flex; align-items: center; padding-top: 0.25rem; padding-right: 0.5rem; padding-bottom: 0.25rem; padding-left: 0.5rem; border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; border-bottom-right-radius: 0.25rem; border-bottom-left-radius: 0.25rem;">
+<span id="19:132" orderindex="80" style="line-height: 1.33333; color: rgba(5, 150, 105, 1); font-size: 0.75rem; font-weight: 500;">3 Active</span>
+</div>
+</div>
+<div id="19:133" orderindex="81" style="background-color: rgba(255, 255, 255, 1); padding-top: 1rem; padding-right: 1rem; padding-bottom: 1rem; padding-left: 1rem; border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; border-bottom-right-radius: 0.5rem; border-bottom-left-radius: 0.5rem;">
+<div id="19:134" orderindex="80" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
+<div id="19:135" orderindex="80" style="display: flex; align-items: center; row-gap: 0.5rem; column-gap: 0.5rem;">
+<span id="19:136" orderindex="80" style="line-height: 1.33333; color: rgba(113, 128, 150, 1); font-size: 0.75rem; font-weight: 400;">Champions League</span>
+<div id="19:137" orderindex="81" style="background-color: rgba(160, 174, 192, 1); width: 0.25rem; height: 0.25rem; border-top-left-radius: 9999px; border-top-right-radius: 9999px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 9999px;"></div>
+<span id="19:138" orderindex="82" style="line-height: 1.33333; color: rgba(74, 85, 104, 1); font-size: 0.75rem; font-weight: 400;">Tomorrow 21:00</span>
+</div>
+<div id="19:139" orderindex="81" style="background-color: rgba(243, 245, 247, 1); display: flex; align-items: center; padding-top: 0.25rem; padding-right: 0.5rem; padding-bottom: 0.25rem; padding-left: 0.5rem; border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; border-bottom-right-radius: 0.25rem; border-bottom-left-radius: 0.25rem;">
+<div id="19:140" orderindex="80" style="display: flex; justify-content: center; align-items: center; width: 0.75rem; height: 0.75rem;">
+<iconify-icon id="19:141" orderindex="80" style="line-height: 1.33333; color: rgba(30, 58, 95, 1); font-size: 0.75rem;" icon="lucide:bell"></iconify-icon>
+</div>
+<span id="19:142" orderindex="81" style="margin-left: 0.25rem; line-height: 1.33333; color: rgba(74, 85, 104, 1); font-size: 0.75rem; font-weight: 500;">30min</span>
+</div>
+</div>
+<div id="19:143" orderindex="81">
+<div id="19:144" orderindex="80" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+<div id="19:145" orderindex="80" style="display: flex; align-items: center; row-gap: 0.75rem; column-gap: 0.75rem;">
+<img id="19:146" orderindex="80" style="width: 24px; height: 24px; border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; border-bottom-right-radius: 0.25rem; border-bottom-left-radius: 0.25rem;" alt="Manchester City team logo" src="https://static.paraflowcontent.com/public/resource/image/306c6071-4d55-4e19-9537-59c1f4afdc93.jpeg" />
+<span id="19:147" orderindex="81" style="line-height: 1.42857; color: rgba(30, 58, 95, 1); font-size: 0.875rem; font-weight: 600;">Manchester City</span>
+</div>
+<span id="19:148" orderindex="81" style="line-height: 1.42857; color: rgba(113, 128, 150, 1); font-size: 0.875rem;">vs</span>
+</div>
+<div id="19:149" orderindex="81" style="display: flex; justify-content: space-between; align-items: center;">
+<div id="19:150" orderindex="80" style="display: flex; align-items: center; row-gap: 0.75rem; column-gap: 0.75rem;">
+<img id="19:151" orderindex="80" style="width: 24px; height: 24px; border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; border-bottom-right-radius: 0.25rem; border-bottom-left-radius: 0.25rem;" alt="Inter Milan team logo" src="https://static.paraflowcontent.com/public/resource/image/1e02271a-81c2-4375-95e9-e8aa9528383c.jpeg" />
+<span id="19:152" orderindex="81" style="line-height: 1.42857; color: rgba(30, 58, 95, 1); font-size: 0.875rem; font-weight: 600;">Inter Milan</span>
+</div>
+<button id="19:153" orderindex="81" style="display: flex; justify-content: center; align-items: center; width: 1.5rem; height: 1.5rem;">
+<iconify-icon id="19:154" orderindex="80" style="line-height: 1.42857; color: rgba(160, 174, 192, 1); font-size: 0.875rem;" icon="lucide:settings"></iconify-icon>
+</button>
+</div>
+</div>
+</div>
+</section>
+</main>
+
+<div id="19:155" orderindex="83">
+<div id="19:156" orderindex="80" style="height: 72px; margin-top: 1rem;"></div>
+<div id="19:157" orderindex="81" style="height: env(safe-area-inset-bottom);"></div>
+</div>
+
+<div id="19:158" orderindex="84" style="display: flex; position: fixed; bottom: 0; flex-direction: column; width: 100%; z-index: 10;">
+<div id="19:159" orderindex="80" style="background-color: rgba(255, 255, 255, 1); border-top-color: rgba(241, 245, 249, 1); border-right-color: rgba(241, 245, 249, 1); border-bottom-color: rgba(241, 245, 249, 1); border-left-color: rgba(241, 245, 249, 1); border-top-style: solid; border-top-width: 1px;">
+<nav id="19:160" orderindex="80" style="display: flex; justify-content: space-around; padding-top: 0.75rem; padding-right: 0.25rem; padding-bottom: 0.75rem; padding-left: 0.25rem;">
+<div id="19:161" orderindex="80" style="display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; flex-basis: 0%; align-items: center; row-gap: 0.25rem; column-gap: 0.25rem;">
+<div id="19:162" orderindex="80" style="display: flex; justify-content: center; align-items: center; width: 1.5rem; height: 1.5rem;">
+<iconify-icon id="19:163" orderindex="80" style="color: rgba(160, 174, 192, 1);" icon="lucide:activity"></iconify-icon>
+</div>
+<span id="19:164" orderindex="81" style="color: rgba(160, 174, 192, 1); font-size: 10px; font-weight: 400;">Scores</span>
+</div>
+<div id="19:165" orderindex="81" style="display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; flex-basis: 0%; align-items: center; row-gap: 0.25rem; column-gap: 0.25rem;">
+<div id="19:166" orderindex="80" style="display: flex; justify-content: center; align-items: center; width: 1.5rem; height: 1.5rem;">
+<iconify-icon id="19:167" orderindex="80" style="color: rgba(30, 58, 95, 1);" icon="lucide:calendar"></iconify-icon>
+</div>
+<span id="19:168" orderindex="81" style="color: rgba(30, 58, 95, 1); font-size: 10px; font-weight: 400;">Schedule</span>
+</div>
+<div id="19:169" orderindex="82" style="display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; flex-basis: 0%; align-items: center; row-gap: 0.25rem; column-gap: 0.25rem;">
+<div id="19:170" orderindex="80" style="display: flex; justify-content: center; align-items: center; width: 1.5rem; height: 1.5rem;">
+<iconify-icon id="19:171" orderindex="80" style="color: rgba(160, 174, 192, 1);" icon="lucide:star"></iconify-icon>
+</div>
+<span id="19:172" orderindex="81" style="color: rgba(160, 174, 192, 1); font-size: 10px; font-weight: 400;">Following</span>
+</div>
+<div id="19:173" orderindex="83" style="display: flex; flex-direction: column; flex-grow: 1; flex-shrink: 1; flex-basis: 0%; align-items: center; row-gap: 0.25rem; column-gap: 0.25rem;">
+<div id="19:174" orderindex="80" style="display: flex; justify-content: center; align-items: center; width: 1.5rem; height: 1.5rem;">
+<iconify-icon id="19:175" orderindex="80" style="color: rgba(160, 174, 192, 1);" icon="lucide:user"></iconify-icon>
+</div>
+<span id="19:176" orderindex="81" style="color: rgba(160, 174, 192, 1); font-size: 10px; font-weight: 400;">Profile</span>
+</div>
+</nav>
+<div id="19:177" orderindex="81" style="height: env(safe-area-inset-bottom);"></div>
+</div>
+</div>
+
+</body>
+</html>

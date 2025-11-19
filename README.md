@@ -1,6 +1,7 @@
 # Flashscore UI设计
 
-This is a UI design project exported from Paraflow.
+This is a UI design project exported from Paraflow .
+This project Follow live football and basketball matches, results, tables and detailed statistics. Jogos de Hoje provides comprehensive coverage of Brazilian and international competitions.
 
 ## Project Structure
 
@@ -24,4 +25,4 @@ Usage Guidelines:
 - Reference design files to create corresponding frontend components
 
 Technical Support:
-For any questions, please visit [Paraflow Official Website](https://paraflow.com) for more information.
+For any questions, please visit [jogos de hoje EU]([https://paraflow.com](https://jogosdehoje.eu.com/en)) for more information.
